@@ -1,6 +1,6 @@
 package dev.jcassio.EventAPI.core.usecases;
 
-public class deleteEventCaseImpl implements deleteEventCase {
+public class DeleteEventCaseImpl implements DeleteEventCase {
     @Override
     public void execute(Long id) {}
 }
