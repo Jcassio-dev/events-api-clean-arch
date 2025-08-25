@@ -2,7 +2,9 @@ package dev.jcassio.EventAPI.infra.mapper;
 
 import dev.jcassio.EventAPI.core.entities.Event;
 import dev.jcassio.EventAPI.infra.dto.EventDTO;
+import org.springframework.stereotype.Component;
 
+@Component
 public class EventDTOMapper {
     public EventDTO toDTO(Event event){
         return new EventDTO(
