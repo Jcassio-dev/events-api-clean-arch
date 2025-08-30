@@ -1,4 +1,5 @@
 package dev.jcassio.EventAPI.infra.persistence;
 
-public class EventRepository {
-}
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EventRepository extends JpaRepository<EventEntity, Long> {}
